@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      ul {
+        padding: 0;
+        list-style: none;
+      }
+      body {
+        font-family: "Roboto Mono", monospace;
+      }
+      main {
+        float: left;
+        width: 69%;
+      }
+      .card {
+        border: 1px solid #ddd;
+        background: #f4f4f4;
+        padding: 20px;
+        margin-bottom: 10px;
+      }
+      .text-center {
+        display: block;
+        text-align: center;
+      }
+      .footer {
+        color: #ddd;
+        background: #333;
+        padding: 10px;
+      }
+      .clr {
+        clear: both;
+      }
+      #header {
+        margin-bottom: 15px;
+        background: #333;
+        color: #fff;
+        padding: 10px;
+      }
+      #blog {
+        padding: 20px;
+        margin-bottom: 10px;
+      }
+      #sidebar {
+        float: right;
+        width: 29%;
+      }
+    </style>
+    <title>HTML 5 Semantic Tags</title>
+  </head>
+  <body>
+    <header class="card" id="header">
+      <h1>My Website</h1>
+      <p>Just another website</p>
+    </header>
+    <main>
+      <section class="card" id="welcome">
+        <h2>Welcome to our website</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui,
+          accusamus? Nam officia magni modi pariatur officiis dolor, laboriosam
+          nemo natus adipisci, molestias corrupti dignissimos delectus
+          repudiandae alias neque nesciunt reprehenderit?
+        </p>
+        <a class="text-center" href="#">Click for more</a>
+      </section>
+      <section id="blog">
+        <h2>From our blog</h2>
+        <article class="article">
+          <h2>Article one</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+            ducimus tempora atque officia in. A voluptates atque praesentium!
+            Nulla, rerum.
+          </p>
+        </article>
+        <article class="article">
+          <h2>Article two</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+            ducimus tempora atque officia in. A voluptates atque praesentium!
+            Nulla, rerum.
+          </p>
+        </article>
+      </section>
+    </main>
+    <aside class="card" id="sidebar">
+      <nav id="main-nav">
+        <h3>Menu</h3>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact us</a></li>
+        </ul>
+      </nav>
+      <hr />
+      <h3>Contact us</h3>
+      <ul>
+        <li><strong>Address : </strong>89/107</li>
+        <li>
+          <strong>E-Mail : </strong>
+          <a href="mailto:boonyarit.iamsaard@gmail.com"
+            >boonyarit.iamsaard@gmail.com</a
+          >
+        </li>
+        <li><strong>Tel. : </strong>083-103-8568</li>
+      </ul>
+    </aside>
+    <div class="clr"></div>
+    <footer class="footer">
+      <p class="text-center">Copyright &copy; 2020</p>
+    </footer>
+  </body>
+</html>
