@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Selectors</title>
+    <style>
+      body {
+        background: #333;
+      }
+      .primary-heading {
+        color: green;
+      }
+      #welcome {
+        background: #f4f4f4;
+      }
+      #about {
+        color: #f4f4f4;
+      }
+      #welcome,
+      #about {
+        border: 1px solid #ccc;
+        padding: 10px;
+        margin-bottom: 5px;
+      }
+      #welcome p {
+        font-size: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="welcome">
+      <h2 class="primary-heading">Welcome</h2>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam
+        ducimus quas facilis ut tenetur enim corporis et recusandae deleniti
+        dolores!
+      </p>
+    </div>
+    <div id="about">
+      <h2 class="primary-heading">About</h2>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam
+        ducimus quas facilis ut tenetur enim corporis et recusandae deleniti
+        dolores!
+      </p>
+    </div>
+  </body>
+</html>
