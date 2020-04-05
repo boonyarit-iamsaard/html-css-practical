@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.4em;
+      }
+
+      .container {
+        max-width: 960px;
+        /* Add margin to top/bottom and auto left/right to center contents */
+        margin: 30px auto;
+      }
+
+      .clr {
+        clear: both;
+      }
+      .box {
+        background: #f4f4f4;
+        border: 1px solid #777777;
+        margin-bottom: 15px;
+        padding: 0.5em;
+        border-radius: 0.5em;
+      }
+
+      .box p {
+        text-align: justify;
+      }
+
+      .box h3 {
+        text-align: center;
+      }
+
+      #box-2 {
+        float: left;
+        width: 60%;
+      }
+
+      #box-3 {
+        float: right;
+        width: 38%;
+      }
+    </style>
+    <title>Float & Align</title>
+  </head>
+  <body>
+    <div class="container">
+      <div id="box-1" class="box">
+        <h3>Box-One</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, iusto
+          enim at nam, molestias temporibus dolor reprehenderit voluptas dolore
+          magni possimus atque vel molestiae asperiores sint sequi a quos
+          maxime.
+        </p>
+      </div>
+      <div id="box-2" class="box">
+        <h3>Box-Two</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, iusto
+          enim at nam, molestias temporibus dolor reprehenderit voluptas dolore
+          magni possimus atque vel molestiae asperiores sint sequi a quos
+          maxime.
+        </p>
+      </div>
+      <div id="box-3" class="box">
+        <h3>Box-Three</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, iusto
+          enim at nam, molestias temporibus dolor reprehenderit voluptas dolore
+          magni possimus atque vel molestiae asperiores sint sequi a quos
+          maxime.
+        </p>
+      </div>
+      <!-- Add class "clr" to clear float on both sides-->
+      <div class="clr"></div>
+      <div id="box-4" class="box">
+        <h3>Box-Fore</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, iusto
+          enim at nam, molestias temporibus dolor reprehenderit voluptas dolore
+          magni possimus atque vel molestiae asperiores sint sequi a quos
+          maxime.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
